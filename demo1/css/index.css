@@ -3,6 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+a {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	color: #FF6700;
+}
 
 .box {
 	width: 600px;
@@ -56,23 +63,23 @@ footer {
 
 .contact {
 	/* border: 1px solid red; */
-	display: inline-block;
+	display: flex;
 	position: absolute;
 	bottom: 10px;
 	right: 30px;
 }
 
 
-.contact>span>img {
+img {
 	width: 40px;
 	filter: grayscale(100%);
 }
 
-.contact>span {
+.contact>div {
 	padding: 4px;
 }
 
-.contact>span>img:hover {
+.contact>div>a>img:hover {
 	filter: grayscale(0);
 	cursor: pointer;
 }
