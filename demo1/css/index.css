@@ -19,12 +19,11 @@ a:hover {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	border-radius: 40px;
+	border-radius: 32px;
 }
 
 header {
 	height: 100px;
-	/*border: 1px solid green;*/
 	text-align: center;
 	line-height: 100px;
 	font-size: 22px;
@@ -32,7 +31,6 @@ header {
 
 main {
 	height: 190px;
-	/*border: 1px solid blue;*/
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -55,17 +53,15 @@ main div:hover {
 
 footer {
 	height: 130px;
-	/*border: 1px solid black;*/
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
 }
 
 .contact {
-	/* border: 1px solid red; */
 	display: flex;
 	position: absolute;
-	bottom: 10px;
+	bottom: 22px;
 	right: 30px;
 }
 
@@ -76,10 +72,11 @@ img {
 }
 
 .contact>div {
-	padding: 4px;
+	padding: 6px;
 }
 
 .contact>div>a>img:hover {
 	filter: grayscale(0);
+   transform: scale(1.2);
 	cursor: pointer;
 }
